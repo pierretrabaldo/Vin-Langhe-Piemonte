@@ -1,0 +1,72 @@
+/* General Reset */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #375748; /* Dark green background for the whole website */
+    color: white; /* General text color set to white for contrast */
+    line-height: 1.6;
+}
+
+/* Header and Logo Link Style */
+header a.logo-link {
+    text-decoration: none; /* Removes underline from the link */
+    color: gold; /* Sets the logo color to gold */
+    cursor: pointer; /* Changes cursor to pointer when hovering over the logo */
+}
+
+header a.logo-link h1 {
+    font-family: 'Playfair Display', serif; /* Elegant font for the logo */
+    font-size: 2.5em;
+}
+
+/* Wine Cards Styling */
+.wine-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent cards */
+    padding: 20px;
+    margin: 20px auto; /* Center cards on the page */
+    width: 90%;
+    max-width: 300px; /* Consistent width for all cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* Styling for All Wine Images */
+.wine-card img {
+    width: 270px; /* Standardized width for images */
+    height: 270px; /* Standardized height for images */
+    display: block;
+    margin: 0 auto 20px; /* Centers the image and adds spacing below */
+    border-radius: 5px; /* Rounded corners for the images */
+}
+
+/* Wine Names and Descriptions Matching Logo Color */
+.wine-card h2,
+.wine-card p {
+    color: gold; /* Gold color for text, matching the VinLanghe logo */
+    font-family: 'Playfair Display', serif;
+    text-align: center; /* Center-align the text for aesthetics */
+    margin-bottom: 0.5em; /* Provides a little space between the name and description */
+}
+
+/* Button Styles for Actions */
+.button {
+    display: inline-block;
+    background-color: #6EC1E4; /* Light blue background for buttons */
+    color: white; /* White text for contrast on the buttons */
+    text-decoration: none; /* Removes underline from the text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Changes cursor to pointer when hovering over the buttons */
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #54595F; /* Darkens the button on hover for a visual effect */
+}
